@@ -1,0 +1,11 @@
+.profile {
+    font-size: 40px;
+    padding-top: 10%;
+}
+
+.profile > p {
+    cursor: pointer;
+}
+
+
+

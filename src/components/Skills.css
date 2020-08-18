@@ -1,0 +1,10 @@
+.skills {
+    font-size: 40px;
+    padding-top: 5%;
+}
+
+.skills > p {
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,25 @@
+.header {
+    height: 10vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    width: 100%;
+    font-weight: 600;
+    vertical-align: middle;
+    padding-top: 2%;
+}
+
+.header__description {
+    font-weight: 700;
+}
+
+.header__phone {
+    flex: 33%;
+}
+
+.header__email {
+    flex: 34%;
+}
+
+.header__address {
+    flex: 33%;
+}

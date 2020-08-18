@@ -1,0 +1,43 @@
+.presentation {
+    background-image: url('https://i.imgur.com/a7E4nI5.png');
+    height: 30vh;
+    display: flex;
+    opacity: 95%;
+}
+
+.presentation__left {
+    flex: 40%;
+}
+
+.presentation__left > img {
+    height: 300px;
+    margin: 50px;
+    margin-left: 300px;
+}
+
+.presentation__leftImg {
+    border: 1px outset;
+}
+
+.presentation__right {
+    flex: 60%;
+    color: white;
+    font-size: 30px;
+    padding: 2%;
+}
+
+.presentation__rightName {
+    font-size: 50px;
+    padding-bottom: 2%;
+}
+
+.presentation__rightIcons > .MuiSvgIcon-root {
+    padding: 3% 30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.presentation__rightIcons > a:link, a:visited {
+    text-decoration: none !important;
+    color: inherit;
+}

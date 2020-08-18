@@ -1,0 +1,8 @@
+.cv {
+    font-size: 40px;
+    padding-top: 5%;
+}
+
+.cv > p {
+    cursor: pointer;
+}
