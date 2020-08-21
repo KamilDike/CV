@@ -4,5 +4,44 @@
 }
 
 .cv > p {
+    letter-spacing: 5px;
     cursor: pointer;
+}
+
+.cv__body {
+    font-size: 26px;
+}
+
+.cv__body > img {
+    border: 1px solid black;
+    height: 100px;
+    width: 150px;
+    margin: 20px;
+}
+
+.cv__bodyShow {
+    animation: show 2s 1;
+}
+
+.cv__bodyHidden {
+    animation: hide 2s 1;
+    color: white;
+    margin-bottom: -40px;
+    opacity: 0%;
+}
+
+@keyframes show {
+    0% {
+        color: white;
+        opacity: 0%;
+        margin-bottom: -40px;
+    }
+}
+
+@keyframes hide {
+    0% {
+        color: black;
+        opacity: 100%;
+        margin-bottom: 0px;
+    }
 }

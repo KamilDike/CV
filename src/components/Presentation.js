@@ -18,7 +18,7 @@ function Presentation() {
                         KAMIL DIKE
                     </a>
                 </p>
-                <p>Junior Application Developer</p>
+                <p>Junior Developer</p>
                 <div>
                     <a className="presentation__rightIcons"
                         href="https://github.com/KamilDike"

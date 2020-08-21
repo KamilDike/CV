@@ -14,7 +14,7 @@ function App() {
       <Presentation/>
       <Profile/>
       <Skills/>
-      <CV/>
+      <CV activate/>
       <Footer/>
     </div>
   );
