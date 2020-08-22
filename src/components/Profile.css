@@ -1,11 +1,42 @@
 .profile {
     font-size: 40px;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .profile > p {
+    letter-spacing: 5px;
     cursor: pointer;
 }
 
+.profile__body {
+    margin: 20px auto;
+    width: 60vw;
+    font-size: 26px;
+}
+
+.profile__bodyShow {
+    animation: show 1.5s 1;
+}
+
+.profile__bodyHidden {
+    animation: hide 1.5s 1;
+    color: white;
+    opacity: 0%;
+    margin-bottom: -190px;
+}
+
+@keyframes show {
+    0% {
+        color: white;
+        opacity: 0%;
+    }
+}
+
+@keyframes hide {
+    0% {
+        color: black;
+        opacity: 100%;
+    }
+}
 
 
