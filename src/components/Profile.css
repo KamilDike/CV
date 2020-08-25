@@ -9,34 +9,26 @@
 }
 
 .profile__body {
-    margin: 20px auto;
+    margin: 0px auto;
     width: 60vw;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .profile__bodyShow {
     animation: show 1.5s 1;
+    margin-top: 50px;
 }
 
 .profile__bodyHidden {
+    margin-top: 50px;
     animation: hide 1.5s 1;
     color: white;
     opacity: 0%;
-    margin-bottom: -190px;
+    margin-bottom: -120px;
 }
 
-@keyframes show {
-    0% {
-        color: white;
-        opacity: 0%;
-    }
-}
-
-@keyframes hide {
-    0% {
-        color: black;
-        opacity: 100%;
-    }
+.idea {
+    color: #FF876D;
 }
 
 

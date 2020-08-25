@@ -12,10 +12,14 @@
     font-size: 26px;
 }
 
-.cv__body > img {
-    border: 1px solid black;
+.cv__body > a > img {
     height: 100px;
     width: 150px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.cv__body > a {
     margin: 20px;
 }
 

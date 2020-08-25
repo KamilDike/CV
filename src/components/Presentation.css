@@ -2,7 +2,6 @@
     background-image: url('https://i.imgur.com/a7E4nI5.png');
     height: 30vh;
     display: flex;
-    opacity: 95%;
 }
 
 .presentation__left {
@@ -10,9 +9,8 @@
 }
 
 .presentation__left > img {
-    height: 300px;
-    margin: 50px;
-    margin-left: 300px;
+    height: 32vh;
+    margin-top: 5vh;
 }
 
 .presentation__leftImg {
@@ -22,22 +20,32 @@
 .presentation__right {
     flex: 60%;
     color: white;
-    font-size: 30px;
-    padding: 2%;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .presentation__rightName {
-    font-size: 50px;
-    padding-bottom: 2%;
+    flex: 40%;
+    font-size: 4vw;
+    padding: 3%;
+}
+
+.presentation__rightJob {
+    flex: 30%;
+}
+
+.presentation__rightIcons {
+    flex: 30%;
 }
 
 .presentation__rightIcons > .MuiSvgIcon-root {
-    padding: 3% 30px;
-    font-size: 40px;
+    padding: 3%;
+    font-size: 4vw;
     cursor: pointer;
 }
 
-.presentation__rightIcons > a:link, a:visited {
+.presentation__rightIcons > a:link, a {
     text-decoration: none !important;
     color: inherit;
 }

@@ -1,6 +1,6 @@
 .header {
     height: 10vh;
-    border-bottom: 1px solid black;
+    border-bottom: 1% solid black;
     display: flex;
     width: 100%;
     font-weight: 600;
@@ -17,9 +17,9 @@
 }
 
 .header__email {
-    flex: 34%;
+    flex: 33%;
 }
 
 .header__address {
-    flex: 33%;
+    flex: 34%;
 }

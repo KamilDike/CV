@@ -1,0 +1,28 @@
+.portfolio {
+    font-size: 40px;
+    padding-top: 5%;
+}
+
+.portfolio > p {
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.portfolio__body {
+    margin: 20px auto;
+    width: 60vw;
+    font-size: 26px;
+}
+
+.portfolio__bodyShow {
+    animation: show 1.5s 1;
+}
+
+.portfolio__bodyHidden {
+    animation: hide 1.5s 1;
+    color: white;
+    opacity: 0%;
+    margin-bottom: -200px;
+}
+
+

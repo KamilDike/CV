@@ -1,4 +1,4 @@
-.App {
+.app {
   text-align: center;
   width: 100%;
 }
@@ -10,4 +10,32 @@
   margin-right: auto;
   border: 1px solid;
   color: black;
+}
+
+.app_body {
+  position: relative;
+  min-height: 100vh;
+}
+
+.app_elements {
+  padding: 200px;
+  padding-bottom: 300px;
+}
+
+.app__element {
+  
+}
+
+@keyframes show {
+  0% {
+      color: white;
+      opacity: 0%;
+  }
+}
+
+@keyframes hide {
+  0% {
+      color: black;
+      opacity: 100%;
+  }
 }
