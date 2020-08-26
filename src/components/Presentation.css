@@ -20,14 +20,14 @@
 .presentation__right {
     flex: 60%;
     color: white;
-    font-size: 3vw;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
 }
 
 .presentation__rightName {
     flex: 40%;
-    font-size: 4vw;
+    font-size: 42px;
     padding: 3%;
 }
 
@@ -41,7 +41,7 @@
 
 .presentation__rightIcons > .MuiSvgIcon-root {
     padding: 3%;
-    font-size: 4vw;
+    font-size: 30px;
     cursor: pointer;
 }
 

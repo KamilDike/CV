@@ -1,6 +1,5 @@
 .profile {
     font-size: 40px;
-    padding-top: 5%;
 }
 
 .profile > p {
@@ -12,19 +11,18 @@
     margin: 0px auto;
     width: 60vw;
     font-size: 24px;
+    margin-top: 5%;
 }
 
 .profile__bodyShow {
     animation: show 1.5s 1;
-    margin-top: 50px;
 }
 
 .profile__bodyHidden {
-    margin-top: 50px;
     animation: hide 1.5s 1;
     color: white;
     opacity: 0%;
-    margin-bottom: -120px;
+    margin-bottom: -8%;
 }
 
 .idea {

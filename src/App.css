@@ -4,7 +4,7 @@
 }
 
 .section__border {
-  margin-top: 5%;
+  margin: 5% 0%;
   width: 20vw;
   margin-left: auto;
   margin-right: auto;
@@ -17,13 +17,9 @@
   min-height: 100vh;
 }
 
-.app_elements {
-  padding: 200px;
-  padding-bottom: 300px;
-}
-
-.app__element {
-  
+.elements {
+  padding-top: 10%;
+  padding-bottom: 15%;
 }
 
 @keyframes show {

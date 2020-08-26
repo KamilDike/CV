@@ -27,13 +27,13 @@ function App() {
           <Header/>
           <Presentation/>
           {access === 'business' ? (
-              <div className="app_elements">
+              <div className="elements">
                 <Profile/>
                 <Portfolio/>
               </div>
             ) :
             access === 'cooperation' ? (
-              <div className="app_elements">
+              <div className="elements">
                 <Profile/>
                 <Skills/>
                 <CV activate/>
