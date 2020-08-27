@@ -2,6 +2,7 @@
     background-image: url('https://i.imgur.com/a7E4nI5.png');
     height: 30vh;
     display: flex;
+    padding: 2% 0.5%;
 }
 
 .presentation__left {

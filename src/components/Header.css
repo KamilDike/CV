@@ -1,11 +1,12 @@
 .header {
-    height: 10vh;
+    height: 10%;
     border-bottom: 1% solid black;
     display: flex;
     width: 100%;
     font-weight: 600;
     vertical-align: middle;
-    padding-top: 2%;
+    padding: 3% 0;
+    align-items: center;
 }
 
 .header__description {
@@ -13,11 +14,12 @@
 }
 
 .header__phone {
-    flex: 33%;
+    flex: 50%;
 }
 
 .header__email {
-    flex: 33%;
+    flex: 50%;
+    padding: 0 1%;
 }
 
 .header__address {

@@ -8,10 +8,6 @@ function Header() {
                 <p className="header__description">PHONE</p>
                 <p>664-420-071</p>
             </div>
-            <div className="header__address">
-                <p className="header__description">LOCATION</p>
-                <p>Remote</p>
-            </div>
             <div className="header__email">
                 <p className="header__description">EMAIL</p>
                 <p>Kamil.Dike.96@gmail.com</p>

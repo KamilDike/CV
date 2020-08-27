@@ -8,22 +8,41 @@
 }
 
 .portfolio__body {
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
     width: 60vw;
     font-size: 24px;
-    margin-top: 5%;
+    left: 0;
+    right: 0;
 }
 
 .portfolio__bodyShow {
     animation: show 1.5s 1;
+    opacity: 1.0;
 }
 
 .portfolio__bodyHidden {
     animation: hide 1.5s 1;
     color: white;
-    opacity: 0%;
-    margin-bottom: -13%;
+    opacity: 0.001;
+    margin-bottom: -15%;
 }
 
+@media only screen and (max-width: 600px) {
+    .portfolio__body {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+        font-size: 22px;
+        left: 0;
+        right: 0;
+    }
+
+    .img {
+        width: 40vw;
+        height: 15vh;
+    }
+}
 
