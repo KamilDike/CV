@@ -40,9 +40,19 @@
         right: 0;
     }
 
-    .img {
+    /* .img {
         width: 40vw;
         height: 15vh;
-    }
+    } */
 }
 
+.project {
+    width: 50%;
+    display: inline;
+    text-align: center;
+    float: left;
+}
+
+.projects {
+    margin: auto;
+}

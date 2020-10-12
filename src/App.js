@@ -24,7 +24,7 @@ function App() {
       ) : 
       (
         <div className="app_body">
-          <Header/>
+          {/* <Header/> */}
           <Presentation/>
           {access === 'business' ? (
               <div className="elements">
